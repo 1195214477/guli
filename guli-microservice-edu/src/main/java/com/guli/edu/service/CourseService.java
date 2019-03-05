@@ -15,4 +15,5 @@ import com.guli.edu.form.CourseInfoForm;
 public interface CourseService extends IService<Course> {
         boolean getCountBySubjectId(String subjectId);
         String saveCourseInfo(CourseInfoForm courseInfoForm);
+        CourseInfoForm getCourseInfoFormById(String id);
 }

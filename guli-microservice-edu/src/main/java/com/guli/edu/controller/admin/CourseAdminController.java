@@ -32,4 +32,14 @@ public class CourseAdminController {
             return R.error().message("保存失败");
         }
     }
+
+    @ApiOperation(value = "根据ID查询课程")
+    @GetMapping("course-info/{id}")
+    public R getById(
+            @ApiParam(name = "id", value = "课程ID", required = true)
+            @PathVariable String id){
+
+        CourseInfoForm courseInfoForm = courseService.getCourseInfoFormById(id);
+        return R.ok().data("item", courseInfoForm);
+    }
 }
