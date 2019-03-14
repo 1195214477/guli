@@ -7,19 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aliyun-oss" />
+        <module name="guli-commonservice-eureka" />
         <module name="guli-commonservice-oss" />
         <module name="guli-framework-common" />
         <module name="guli-microservice-edu" />
+        <module name="guli-microservice-statistics" />
         <module name="guli-microservice-sysuser" />
+        <module name="guli-microservice-ucenter" />
+        <module name="guli-microservice-vod" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aliyun-oss" target="1.8" />
+      <module name="aliyun-vod" target="1.8" />
+      <module name="guli-commonservice-eureka" target="1.8" />
       <module name="guli-commonservice-oss" target="1.8" />
       <module name="guli-framework-common" target="1.8" />
       <module name="guli-framework-parent" target="1.8" />
       <module name="guli-microservice-edu" target="1.8" />
+      <module name="guli-microservice-statistics" target="1.8" />
       <module name="guli-microservice-sysuser" target="1.8" />
+      <module name="guli-microservice-ucenter" target="1.8" />
+      <module name="guli-microservice-vod" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

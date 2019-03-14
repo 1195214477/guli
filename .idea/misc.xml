@@ -9,6 +9,11 @@
         <option value="$PROJECT_DIR$/aliyun-oss/pom.xml" />
         <option value="$PROJECT_DIR$/guli-commonservice-oss/pom.xml" />
         <option value="$PROJECT_DIR$/guli-microservice-sysuser/pom.xml" />
+        <option value="$PROJECT_DIR$/../project_java_180925/aliyun-vod/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-vod/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-commonservice-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-microservice-statistics/pom.xml" />
       </list>
     </option>
   </component>
